@@ -139,3 +139,26 @@ body {
 .cancel-btn:active {
   color: var(--dark-blue);
 }
+
+@media only screen and (max-width: 375px) {
+ .hero img {
+   width: 330px;
+ }
+ 
+ .card {
+   width: 330px;
+ }
+
+ .plan-header {
+   font-size: 14px;
+ }
+
+ .change-plan {
+   margin-left: 40px;
+   font-size: 14px;
+ }
+
+ .plan-text {
+   font-size: 14px;
+ }
+}
