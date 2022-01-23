@@ -9,6 +9,7 @@
   --very-pale-blue: hsl(225, 100%, 98%);
   --desaturated-blue: hsl(225, 23%, 55%);
   --dark-blue: hsl(223, 47%, 23%);
+  --active-state: hsl(245, 65%, 63%);
 }
 
 * {
@@ -36,11 +37,12 @@ body {
   width: 400px;
   text-align: center;
   background-color: #fff;
-  border-radius: 15px 15px 0px 0px;
+  border-radius: 15px 15px 15px 15px;
 }
 
 .hero img {
   width: 400px;
+  border-radius: 15px 15px 0px 0px;
 }
 
 
@@ -96,4 +98,44 @@ body {
   color: var(--bright-blue);
   font-family: 'Red Hat Display';
   font-size: 15px;
+}
+
+.payment {
+  display: flex;
+  flex-direction: column;
+}
+
+.proceed-btn {
+  font-family: 'Red Hat Display';
+  font-size: 15px;
+  padding: 0.8em;
+  border-radius: 10px;
+  background-color: var(--bright-blue);
+  color: #fff;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.cancel-btn {
+  text-decoration: none;
+  font-family: 'Red Hat Display';
+  font-size: 15px;
+  color: var(--desaturated-blue);
+}
+
+.proceed-btn:hover {
+  cursor: pointer;
+}
+
+.proceed-btn:active {
+  background-color: var(--active-state);
+}
+
+.change-plan:active {
+  color: var(--active-state);
+  text-decoration: none;
+}
+
+.cancel-btn:active {
+  color: var(--dark-blue);
 }
