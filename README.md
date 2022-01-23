@@ -9,12 +9,9 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
-  - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -30,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [SOLUTION URL](https://your-solution-url.com)
-- Live Site URL: [LIVE SITE URL](https://your-live-site-url.com)
+- Solution URL: [SOLUTION URL](https://www.frontendmentor.io/solutions/order-summary-card-X9W32i5kW)
+- Live Site URL: [LIVE SITE URL](https://thenerdic.github.io/order-summary-card/)
 
 ## My process
 
