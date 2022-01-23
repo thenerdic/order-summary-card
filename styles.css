@@ -24,7 +24,7 @@ body {
 }
 
 .card-container {
-  height: 80vh;
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,7 +35,8 @@ body {
   flex-direction: column;
   width: 400px;
   text-align: center;
-  background-color: var(--very-pale-blue);
+  background-color: #fff;
+  border-radius: 15px 15px 0px 0px;
 }
 
 .hero img {
@@ -47,6 +48,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 35px;
+  height: 380px;
 }
 
 .content h2 {
@@ -57,13 +59,41 @@ body {
   color: var(--dark-blue);
 }
 
-.content .text {
+.content .content-text {
   color: var(--desaturated-blue);
   font-family: 'Red Hat Display';
   font-size: 15px;
   margin-bottom: 20px;
 }
 
-.annual-plan {
+.plan {
   display: flex;
+  align-items: center;
+  background-color: var(--very-pale-blue);
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.year-plan {
+  margin: 0px 0px 0px 10px;
+}
+
+.plan-header {
+  font-family: 'Red Hat Display';
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.plan-text {
+  font-family: 'Red Hat Display';
+  font-size: 15px;
+  color: var(--desaturated-blue);
+}
+
+.change-plan {
+  margin-left: 100px;
+  color: var(--bright-blue);
+  font-family: 'Red Hat Display';
+  font-size: 15px;
 }
