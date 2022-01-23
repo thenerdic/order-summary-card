@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
 
+:root {
+  /* primary colors */
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+
+  /* neutral colors */
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(225, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -9,7 +20,7 @@
 body {
   background-image: url(images/pattern-background-desktop.svg);
   background-repeat: repeat-x;
-  background-color: hsl(225, 100%, 94%);
+  background-color: var(--pale-blue);
 }
 
 .card-container {
@@ -24,7 +35,7 @@ body {
   flex-direction: column;
   width: 400px;
   text-align: center;
-  background-color: #fff;
+  background-color: var(--very-pale-blue);
 }
 
 .hero img {
@@ -35,4 +46,24 @@ body {
 .content {
   display: flex;
   flex-direction: column;
+  padding: 35px;
+}
+
+.content h2 {
+  font-family: 'Red Hat Display';
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: var(--dark-blue);
+}
+
+.content .text {
+  color: var(--desaturated-blue);
+  font-family: 'Red Hat Display';
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.annual-plan {
+  display: flex;
 }
