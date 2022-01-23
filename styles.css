@@ -122,6 +122,7 @@ body {
   font-family: 'Red Hat Display';
   font-size: 15px;
   color: var(--desaturated-blue);
+  font-weight: 700;
 }
 
 .proceed-btn:hover {
